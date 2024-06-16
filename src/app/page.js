@@ -98,7 +98,7 @@ export default function Home() {
         <div className="sect3 mt-12 sm:h-auto">
           <Image src={top} alt="" className="object-cover sm:mb-8" />
           <Image src={people1} alt="" className="object-cover ml-4 mt-12 w-[90%] sm:mb-8" />
-          <p className="pt-12 pl-4 w-[85%]">
+          <p className="pt-12 pl-4 w-[90%]">
             IN LINE WITH LAGOS STATE
             GOVERNMENT’S UNNENDING SUPPORT
             FOR THE YOUTH AND THE CREATIVE
@@ -106,7 +106,7 @@ export default function Home() {
             RUNNING A PLATFORM TO EMPOWER
             YOUTHS AND CREATIVES TO REACH THEIR
             FULL POTENTIAL WITH THIS ALTERNATIVE
-            MEANS OF EDUCATION - A LIFECHANGING STORYTELLING WORKSHOP
+            MEANS OF EDUCATION - A LIFE CHANGING STORYTELLING WORKSHOP
             WHERE STORYTELLERS ARE EQUIPPED
             WITH EVERYTHING THEY NEED TO PURSUE
             VIABLE CAREERS IN THE CREATIVE MEDIA
@@ -130,7 +130,7 @@ export default function Home() {
         </div>
         <div className="ml-5 mt-12">
           <p className="underline text-3xl">BENEFITS</p>
-          <ul className="h-auto w-[95%] mt-4 uppercase text-white p-6 bg-green-400 rounded-3xl">
+          <div className="h-auto w-[95%] mt-4 uppercase text-white p-6 bg-green-400 rounded-3xl">
             <li className="">YOUTH EMPOWERMENT</li>
             <li className="pt-4">Readily employable storytellers that would be
               useful in the state’s media and strategies
@@ -148,7 +148,7 @@ export default function Home() {
               STORIES ABOUT LAGOS AND NIGERIA THAT TRANSCEND
               GLOBAL BORDERS.
             </li>
-          </ul>
+          </div>
         </div>
         <div className="sect5">
           <Image src={bottom} alt="" className="object-cover mt-12" />
