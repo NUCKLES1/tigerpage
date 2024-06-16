@@ -294,7 +294,7 @@ export default function Home() {
               <li>LAGOS- SEPTEMBER 2024</li>
               <li>ABEOKUTA - NOVEMBER 2024</li>
           </div>
-          <p className="text-right mt-8 p-6">
+          <p className=" mt-8 p-6">
             THEY ARE A TREASURE TROVE OF
             STORYTELLERS WAITING FOR AN
             OPPORTUNITY LIKE THIS. MOST
@@ -565,7 +565,7 @@ export default function Home() {
               </p>
             </li>
           </div>
-          <div className="w-[90%] text-left border-bottom ml-5">
+          <div className="w-[90%] text-center border-bottom ml-5">
             <Image src={pic7} alt="" className="object-cover w-full h-[25rem] rounded-2xl mt-12" />
             <li className="mt-6">ABDUL TJ AHMED:
               <p className="font-normal pt-2 pb-6"> Writer of
