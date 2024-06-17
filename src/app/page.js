@@ -81,7 +81,7 @@ import page32 from "/public/page32.png"
 export default function Home() {
   return (
     <main className="sm:w-full">
-      <div className="sm:w-full lg:hidden sm:h-auto">
+      <div className="sm:w-full lg:hidden md:hidden sm:h-auto">
         <Image src={sect1} alt="" className="object-cover" />
         <div className="sect2 mt-8">
           <Image src={min} alt="" className="object-cover w-[80%] ml-10" />
